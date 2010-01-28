@@ -50,6 +50,7 @@ require 'fleximage/helper'
 ActionView::Base.class_eval { include Fleximage::Helper }
 
 # Setup Aviary Controller
+require 'fleximage/aviary_controller'
 ActionController::Base.class_eval{ include Fleximage::AviaryController }
 
 # Register mime types
